@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hi! Network CA1 Cloud Deployment is running successfully."
+    return "Hi! Network CA1 Cloud Deployment is verified."
 
 @app.route('/health')
 def health():
